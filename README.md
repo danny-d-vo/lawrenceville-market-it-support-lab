@@ -19,6 +19,18 @@ Both VMs use the `LVM-LAB` VirtualBox network (`10.30.40.0/24`). The domain is `
 - Linked a Group Policy to the workstation OU that sets a 10-minute inactivity lock. I confirmed the setting applied on the client.
 - Troubleshot client IP addressing and external DNS, and wrote down the steps as support tickets.
 
+## Screenshots
+
+**Front-End employee accounts in Active Directory**
+
+![Front-End employee accounts in Active Directory](screenshots/ad-front-end-accounts.png)
+
+**Maya opening the Inventory share on the domain workstation**
+
+![Maya Brooks opening the Inventory share on the domain workstation](screenshots/inventory-access-allowed-maya.png)
+
+More evidence: [department OUs](screenshots/ad-ou-structure.png), [40-account check](screenshots/ad-employee-count-40.png), [Inventory group members](screenshots/inventory-group-members.png), [Evan denied access](screenshots/inventory-access-denied-evan.png), [GPO link](screenshots/gpo-workstations-link.png), and [600-second setting](screenshots/gpo-inactivity-600-seconds.png).
+
 ## Help-desk tickets
 
 | Ticket | Issue |
@@ -28,12 +40,6 @@ Both VMs use the `LVM-LAB` VirtualBox network (`10.30.40.0/24`). The domain is `
 | [TKT-003](tickets/TKT-003-client-addressing.md) | Workstation received a `169.254.x.x` address |
 | [TKT-004](tickets/TKT-004-external-dns.md) | Workstation could not resolve external websites |
 | [TKT-005](tickets/TKT-005-new-starter-onboarding.md) | Onboarded 38 new employees |
-
-## Screenshots
-
-- Active Directory: [department OUs](screenshots/ad-ou-structure.png), [Front-End accounts](screenshots/ad-front-end-accounts.png), and [40-account check](screenshots/ad-employee-count-40.png).
-- File access: [Inventory group members](screenshots/inventory-group-members.png), [Evan denied](screenshots/inventory-access-denied-evan.png), and [Maya allowed](screenshots/inventory-access-allowed-maya.png).
-- Group Policy: [link to the Workstations OU](screenshots/gpo-workstations-link.png) and [600-second setting](screenshots/gpo-inactivity-600-seconds.png).
 
 ## Reproducing the employee import
 
