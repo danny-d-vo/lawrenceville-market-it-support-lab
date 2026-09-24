@@ -35,11 +35,11 @@ More evidence: [department OUs](screenshots/ad-ou-structure.png), [40-account ch
 
 | Ticket | Issue |
 | --- | --- |
-| [TKT-001](tickets/TKT-001-inventory-access.md) | Receiving employee could not access the Inventory share |
-| [TKT-002](tickets/TKT-002-password-reset.md) | Front-End employee needed a password reset |
-| [TKT-003](tickets/TKT-003-client-addressing.md) | Workstation received a `169.254.x.x` address |
-| [TKT-004](tickets/TKT-004-external-dns.md) | Workstation could not resolve external websites |
-| [TKT-005](tickets/TKT-005-new-starter-onboarding.md) | Onboarded 38 new employees |
+| [TKT-001](support-tickets/TKT-001-inventory-access.md) | Receiving employee could not access the Inventory share |
+| [TKT-002](support-tickets/TKT-002-password-reset.md) | Front-End employee needed a password reset |
+| [TKT-003](support-tickets/TKT-003-client-addressing.md) | Workstation received a `169.254.x.x` address |
+| [TKT-004](support-tickets/TKT-004-external-dns.md) | Workstation could not resolve external websites |
+| [TKT-005](support-tickets/TKT-005-new-starter-onboarding.md) | Onboarded 38 new employees |
 
 ## Reproducing the employee import
 
